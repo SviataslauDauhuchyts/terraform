@@ -1,1 +1,4 @@
 config.tf
+plan
+.terraform
+*.backup
