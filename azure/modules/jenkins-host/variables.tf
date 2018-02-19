@@ -1,11 +1,7 @@
 variable "rg_name" {}
 variable "location" {}
 variable "network" {}
-variable "address_space" {
-  type = "list"
-}
 variable "subnet" {}
-variable "address_prefix" {}
 variable "interface" {}
 variable "ip_config" {}
 variable "disk" {}
@@ -25,7 +21,7 @@ variable "image_version" {
   default = "latest"
 }
 variable "os_disk" {
-  default = "os_disk"
+  default = "jenkins_os_disk"
 }
 variable "hostname" {}
 variable "admin_username" {}
